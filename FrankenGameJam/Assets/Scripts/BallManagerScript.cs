@@ -14,6 +14,11 @@ public class BallManagerScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        var spawners = GameObject.FindGameObjectsWithTag("BallSpawner");
+        foreach(var spawner in spawners)
+        {
+            spawnerList.Add(spawner.GetComponent<BallSpawnScript>());
+        }
         timeCounter = 0;
     }
 
@@ -33,7 +38,6 @@ public class BallManagerScript : MonoBehaviour
     {
         var rng = Random.Range(0, spawnerList.Count);
         ballList.Add(spawnerList[rng].SpawnBall(this));
-        
     }
 
     public void BallRemove(GameObject ball)

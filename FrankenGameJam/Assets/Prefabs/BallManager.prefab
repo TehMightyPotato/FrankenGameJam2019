@@ -43,3 +43,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d3f93df4cce87c43b3eeafa186d2de2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ballList: []
+  spawnerList: []
+  timeCounter: 0
+  maxTimeCounter: 2
+  maxBalls: 8
+  deadBalls: 0
