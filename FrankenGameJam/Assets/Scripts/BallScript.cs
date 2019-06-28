@@ -6,16 +6,16 @@ public class BallScript : MonoBehaviour
 {
     public BallManagerScript managerScript;
 
-    public void HitPlayer()
-    {
-        
-    }
-
     public void OnTriggerEnter2D (Collider2D col)
     {
-        if(col.gameObject.tag == "BallBorder")
+        if(col.CompareTag("BallBorder"))
         {
             managerScript.BallRemove(gameObject);
+            Destroy(gameObject);
+        }
+        if (col.CompareTag("Player"))
+        {
+            col.gameObject.GetComponent<Health>().Loosehealth();
             Destroy(gameObject);
         }
     }
