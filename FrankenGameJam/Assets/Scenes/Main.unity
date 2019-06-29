@@ -467,7 +467,7 @@ PrefabInstance:
         type: 3}
       propertyPath: playerhalo
       value: 
-      objectReference: {fileID: 1571732534}
+      objectReference: {fileID: 1754334408}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43cb379a8ca724c11b5ef9bed12defcf, type: 3}
 --- !u!1001 &1519362839
@@ -539,6 +539,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 492c6bec0a57155419e371d5265fa8ce, type: 3}
+--- !u!212 &1754334408 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 5037059903624367606, guid: 43cb379a8ca724c11b5ef9bed12defcf,
+    type: 3}
+  m_PrefabInstance: {fileID: 1302792664}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &356381438822649004
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1517,6 +1523,11 @@ PrefabInstance:
       propertyPath: playerhalo
       value: 
       objectReference: {fileID: 411950268}
+    - target: {fileID: 5551278793658941475, guid: 43cb379a8ca724c11b5ef9bed12defcf,
+        type: 3}
+      propertyPath: playertype
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43cb379a8ca724c11b5ef9bed12defcf, type: 3}
 --- !u!1001 &8628476056619432687
