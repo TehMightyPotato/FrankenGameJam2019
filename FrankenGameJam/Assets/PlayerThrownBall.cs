@@ -6,8 +6,6 @@ public class PlayerThrownBall : GenericBall
 {
 
     public GameObject origin;
-    public Coroutine looseHealthRoutine;
-    public float timer;
 
     public void OnTriggerEnter2D(Collider2D col)
     {
@@ -25,7 +23,7 @@ public class PlayerThrownBall : GenericBall
     }
 
 
-    public IEnumerator LooseHealthRoutine(GameObject player)
+    public new IEnumerator LooseHealthRoutine(GameObject player)
     {
         player.GetComponent<Health>().Loosehealth();
         yield return null;

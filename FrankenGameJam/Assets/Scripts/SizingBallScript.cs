@@ -47,17 +47,10 @@ public class SizingBallScript : GenericBall
         {
             if (looseHealthRoutine == null)
             {
-                looseHealthRoutine = StartCoroutine(LooseHealthRoutine(col.gameObject.GetComponent<Health>()));
+                looseHealthRoutine = StartCoroutine(LooseHealthRoutine(col.gameObject));
             }
             managerScript.BallRemove(gameObject);
             Destroy(gameObject);
         }
-    }
-
-
-    public IEnumerator LooseHealthRoutine(Health health)
-    {
-        health.Loosehealth();
-        yield return null;
     }
 }

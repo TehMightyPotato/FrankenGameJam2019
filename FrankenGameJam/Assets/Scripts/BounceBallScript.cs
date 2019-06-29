@@ -6,7 +6,6 @@ public class BounceBallScript : GenericBall
 {
     public int bounceCounter;
     public Coroutine bounceRoutine;
-    public Coroutine looseHealthRoutine;
 
 
     private Rigidbody2D rbBounceBall;
@@ -30,7 +29,7 @@ public class BounceBallScript : GenericBall
         {
             if (looseHealthRoutine == null)
             {
-                looseHealthRoutine = StartCoroutine(LooseHealthRoutine(col.gameObject.GetComponent<Health>()));
+                looseHealthRoutine = StartCoroutine(LooseHealthRoutine(col.gameObject));
             }
             managerScript.BallRemove(gameObject);
             Destroy(gameObject);
@@ -43,11 +42,5 @@ public class BounceBallScript : GenericBall
         bounceCounter++;
         yield return new WaitForSeconds(1);
         bounceRoutine = null;
-    }
-
-    public IEnumerator LooseHealthRoutine(Health health)
-    {
-        health.Loosehealth();
-        yield return null;
     }
 }
