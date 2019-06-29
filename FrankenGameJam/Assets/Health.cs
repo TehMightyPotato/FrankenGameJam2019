@@ -31,11 +31,12 @@ public class Health : MonoBehaviour
 
         if (playertype == Playertype.PLAYER1)
         {
-            SceneManager.LoadScene("PLAYER2WINS");
+            SceneManager.LoadScene("P2WINS");
         }
         if (playertype == Playertype.PLAYER2)
         {
-            SceneManager.LoadScene("PLAYER1WINS");
+            SceneManager.LoadScene("P1WINS");
         }
     }
+
 }
