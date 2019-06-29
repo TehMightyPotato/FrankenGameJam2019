@@ -8,8 +8,9 @@ public class SPACEGHOST : MonoBehaviour
 	public GameObject waypointR;
 	public Rigidbody2D rb;
 	public Coroutine timeroutine;
-	// Start is called before the first frame update
-	void Start()
+    public BallSpawnScript spawner;
+    // Start is called before the first frame update
+    void Start()
 	{
 		rb = GetComponent<Rigidbody2D>();
 		StartCoroutine(Timeroutine());
@@ -18,8 +19,8 @@ public class SPACEGHOST : MonoBehaviour
 	// Update is called once per frame
 	void Update()
 	{
-
-	}
+    
+    }
 
     void FixedUpdate()
 	{
