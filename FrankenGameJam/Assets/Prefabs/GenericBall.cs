@@ -12,12 +12,12 @@ public class GenericBall : MonoBehaviour
     {
         Movement movescript = player.GetComponent<Movement>();
         movescript.playerhalo.enabled = true;
-        if (movescript.playertype == Playertype.PLAYER1 && movescript.canCatch)
+        if (movescript.playertype == Playertype.PLAYER1)
         {
             while (timer > 0)
             {
 
-                if (Input.GetButtonDown("CatchP1"))
+                if (Input.GetButtonDown("CatchP1") && movescript.canCatch)
                 {
                     movescript.StartCatchCooldown();
                     break;
@@ -27,11 +27,11 @@ public class GenericBall : MonoBehaviour
             }
         }
 
-        if (movescript.playertype == Playertype.PLAYER2 && movescript.canCatch)
+        if (movescript.playertype == Playertype.PLAYER2)
         {
             while (timer > 0)
             {
-                if (Input.GetButtonDown("CatchP2"))
+                if (Input.GetButtonDown("CatchP2") && movescript.canCatch)
                 {
                     movescript.StartCatchCooldown();
                     break;

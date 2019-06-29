@@ -18,8 +18,8 @@ public class Movement : MonoBehaviour
     public Coroutine catchCooldownRoutine;
     public float catchCooldown;
     public bool canCatch;
-    private Color defaultHaloColor = new Color(255, 0, 0, 255);
-    private Color canNotCatchHaloColor = new Color(0, 0, 255, 255);
+    public Color defaultHaloColor;
+    public Color canNotCatchHaloColor;
    
     // Update is called once per frame
     void Update()

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.49641287, b: 0.5748173, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -201,12 +201,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &411950268 stripped
-SpriteRenderer:
-  m_CorrespondingSourceObject: {fileID: 5037059903624367606, guid: 43cb379a8ca724c11b5ef9bed12defcf,
-    type: 3}
-  m_PrefabInstance: {fileID: 5551278795069850778}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -388,16 +382,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 5037059903624367606, guid: 43cb379a8ca724c11b5ef9bed12defcf,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5037059903624367606, guid: 43cb379a8ca724c11b5ef9bed12defcf,
-        type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
-      objectReference: {fileID: 0}
     - target: {fileID: 5551278793658941474, guid: 43cb379a8ca724c11b5ef9bed12defcf,
         type: 3}
       propertyPath: m_Name
@@ -458,21 +442,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5551278793658941472, guid: 43cb379a8ca724c11b5ef9bed12defcf,
-        type: 3}
-      propertyPath: bounce
-      value: 35
-      objectReference: {fileID: 0}
-    - target: {fileID: 5551278793658941475, guid: 43cb379a8ca724c11b5ef9bed12defcf,
-        type: 3}
-      propertyPath: playertype
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5551278793658941475, guid: 43cb379a8ca724c11b5ef9bed12defcf,
-        type: 3}
-      propertyPath: playerhalo
-      value: 
-      objectReference: {fileID: 1754334408}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43cb379a8ca724c11b5ef9bed12defcf, type: 3}
 --- !u!1001 &1519362839
@@ -544,12 +513,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 492c6bec0a57155419e371d5265fa8ce, type: 3}
---- !u!212 &1754334408 stripped
-SpriteRenderer:
-  m_CorrespondingSourceObject: {fileID: 5037059903624367606, guid: 43cb379a8ca724c11b5ef9bed12defcf,
-    type: 3}
-  m_PrefabInstance: {fileID: 1302792664}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &356381438822649004
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1458,11 +1421,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 5037059903624367606, guid: 43cb379a8ca724c11b5ef9bed12defcf,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5551278793658941474, guid: 43cb379a8ca724c11b5ef9bed12defcf,
         type: 3}
       propertyPath: m_Name
@@ -1525,13 +1483,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5551278793658941475, guid: 43cb379a8ca724c11b5ef9bed12defcf,
         type: 3}
-      propertyPath: playerhalo
-      value: 
-      objectReference: {fileID: 411950268}
-    - target: {fileID: 5551278793658941475, guid: 43cb379a8ca724c11b5ef9bed12defcf,
-        type: 3}
-      propertyPath: playertype
-      value: 0
+      propertyPath: catchCooldown
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43cb379a8ca724c11b5ef9bed12defcf, type: 3}
