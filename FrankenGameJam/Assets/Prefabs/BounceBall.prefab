@@ -135,4 +135,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   managerScript: {fileID: -7487249903120519449, guid: 92ce7878d232e4042b158a00815d4e95,
     type: 3}
-  bounceCounter: 0
+  timer: 0.5
+  bounceCounter: 2
