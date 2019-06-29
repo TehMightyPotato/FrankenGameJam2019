@@ -1,0 +1,85 @@
+{
+    "name": "InputMaster",
+    "maps": [
+        {
+            "name": "Default",
+            "id": "4a6fec88-f26e-4a9a-9d01-a181c915717b",
+            "actions": [
+                {
+                    "name": "Player1Movement",
+                    "id": "30536cd6-d64e-4a5d-98b3-8b3829d2a0a2",
+                    "expectedControlLayout": "",
+                    "continuous": false,
+                    "passThrough": false,
+                    "initialStateCheck": false,
+                    "processors": "",
+                    "interactions": "",
+                    "bindings": []
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "2D Vector",
+                    "id": "42af2241-5ad3-4c1b-b268-e3295653cf2c",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Player1Movement",
+                    "isComposite": true,
+                    "isPartOfComposite": false,
+                    "modifiers": ""
+                },
+                {
+                    "name": "up",
+                    "id": "addd8022-e548-495e-a55f-ce7eb1bc517a",
+                    "path": "<NPad>/leftStick/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Player1Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true,
+                    "modifiers": ""
+                },
+                {
+                    "name": "down",
+                    "id": "de8e248e-aafe-4b4d-93c9-2ec0fad70d68",
+                    "path": "<NPad>/leftStick/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Player1Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true,
+                    "modifiers": ""
+                },
+                {
+                    "name": "left",
+                    "id": "fc8a859e-45e3-4fa9-bbbe-5a9757578059",
+                    "path": "<NPad>/leftStick/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Player1Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true,
+                    "modifiers": ""
+                },
+                {
+                    "name": "right",
+                    "id": "484375a6-fb6d-4dc3-bb09-5ebbe2926850",
+                    "path": "<NPad>/rightStick/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Player1Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true,
+                    "modifiers": ""
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

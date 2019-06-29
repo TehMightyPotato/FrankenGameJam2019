@@ -26,16 +26,18 @@ public class Health : MonoBehaviour
         if (health > 0)
         {
             Debug.Log("yeah you're alive!");
+            return;
         }
+        
         Debug.Log("OH MY GOD, SHE FUCKING DEAD!");
 
         if (playertype == Playertype.PLAYER1)
         {
-            SceneManager.LoadScene("PLAYER2WINS");
+            SceneManager.LoadScene("P2WINS");
         }
         if (playertype == Playertype.PLAYER2)
         {
-            SceneManager.LoadScene("PLAYER1WINS");
+            SceneManager.LoadScene("P1WINS");
         }
     }
 }

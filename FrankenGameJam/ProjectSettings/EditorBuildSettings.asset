@@ -14,4 +14,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/P2WINS.unity
     guid: eefb642747d0345e08ab42591fec20d9
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: be7ce30db621de046b7d384b720c4d12,
+      type: 2}

@@ -5,6 +5,8 @@ using UnityEngine;
 public class BallScript : MonoBehaviour
 {
     public BallManagerScript managerScript;
+    public Coroutine looseHealthRoutine;
+
 
     public void OnTriggerEnter2D (Collider2D col)
     {
@@ -15,19 +17,17 @@ public class BallScript : MonoBehaviour
         }
         if (col.CompareTag("Player"))
         {
-            col.gameObject.GetComponent<Health>().Loosehealth();
+            if(looseHealthRoutine == null)
+            {
+                looseHealthRoutine = StartCoroutine(LooseHealthRoutine(col.gameObject.GetComponent<Health>()));
+            }
             Destroy(gameObject);
         }
     }
-    // Start is called before the first frame update
-    void Start()
+    
+    public IEnumerator LooseHealthRoutine(Health health)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        health.Loosehealth();
+        yield return null;
     }
 }
