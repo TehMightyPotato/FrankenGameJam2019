@@ -49,4 +49,35 @@ public class BallSpawnScript : MonoBehaviour
         rbBall.AddForce(direction * movespeedBall);
         return ball;
     }
+
+    public GameObject SpawnBall()
+    {
+        var ball = Instantiate(ballPrefab, transform.position, Quaternion.identity);
+        var rbBall = ball.GetComponent<Rigidbody2D>();
+        var ballscript = ball.GetComponent<BallScript>();
+        Vector2 direction = new Vector2(0, 0);
+        if (shootingDirection == ShootingDirection.TOP)
+        {
+            direction.x = 0;
+            direction.y = 1;
+        }
+        if (shootingDirection == ShootingDirection.BOTTOM)
+        {
+            direction.x = 0;
+            direction.y = -1;
+        }
+        if (shootingDirection == ShootingDirection.LEFT)
+        {
+            direction.x = -1;
+            direction.y = 0;
+        }
+
+        if (shootingDirection == ShootingDirection.RIGHT)
+        {
+            direction.x = 1;
+            direction.y = 0;
+        }
+        rbBall.AddForce(direction * movespeedBall);
+        return ball;
+    }
 }
