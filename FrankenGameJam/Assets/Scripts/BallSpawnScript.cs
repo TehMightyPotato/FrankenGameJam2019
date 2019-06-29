@@ -20,8 +20,18 @@ public class BallSpawnScript : MonoBehaviour
     {
         var ball = Instantiate(ballPrefab, transform.position, Quaternion.identity);
         var rbBall = ball.GetComponent<Rigidbody2D>();
-        ball.GetComponent<BallScript>().managerScript = manager;
+        var nullCheck = ball.GetComponent<BallScript>();
         Vector2 direction = new Vector2(0, 0);
+
+        if (nullCheck == null)
+        {
+            ball.GetComponent<BounceBallScript>().managerScript = manager;
+        }
+
+        else
+        {
+            nullCheck.managerScript = manager;
+        }
 
         if (shootingDirection == ShootingDirection.TOP)
         {
