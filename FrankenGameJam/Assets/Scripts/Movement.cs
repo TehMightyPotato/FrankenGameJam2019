@@ -15,6 +15,11 @@ public class Movement : MonoBehaviour
     public SpriteRenderer playerhalo;
     public Vector2 looking = new Vector2(0,0);
     public float rotation;
+    public Coroutine catchCooldownRoutine;
+    public float catchCooldown;
+    public bool canCatch;
+    public Color defaultHaloColor;
+    public Color canNotCatchHaloColor;
    
     // Update is called once per frame
     void Update()
@@ -36,9 +41,34 @@ public class Movement : MonoBehaviour
         rotation = Mathf.Atan2(looking.x, looking.y) * Mathf.Rad2Deg;
     }
 
+    public void StartCatchCooldown()
+    {
+        if(catchCooldownRoutine == null)
+        {
+            canCatch = false;
+            catchCooldownRoutine = StartCoroutine(CatchCooldownRoutine());
+        }
+    }
+
     private void FixedUpdate()
     {
         playerRB.AddForce(playermov*speed,ForceMode2D.Impulse);
         transform.eulerAngles = new Vector3(0,0,rotation);
+    }
+
+    public IEnumerator CatchCooldownRoutine()
+    {
+        var tempCatchCooldown = catchCooldown;
+        playerhalo.color = canNotCatchHaloColor;
+        playerhalo.enabled = true;
+        while(tempCatchCooldown > 0)
+        {
+            tempCatchCooldown -= Time.deltaTime;
+            yield return null;
+        }
+        canCatch = true;
+        playerhalo.enabled = false;
+        playerhalo.color = defaultHaloColor;
+        catchCooldownRoutine = null;
     }
 }

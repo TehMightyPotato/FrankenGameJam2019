@@ -69,7 +69,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: 22d313fb612854e7088ee05681e1fb6f, type: 3}
   m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_FlipX: 0
@@ -252,6 +252,8 @@ MonoBehaviour:
   playerhalo: {fileID: 5037059903624367606}
   looking: {x: 0, y: 0}
   rotation: 0
+  catchCooldown: 5
+  canCatch: 1
 --- !u!114 &1134931752
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -268,3 +270,4 @@ MonoBehaviour:
     type: 3}
   movespeedBall: 50
   body: {fileID: 5551278793658941476}
+  movementScript: {fileID: 0}
