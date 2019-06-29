@@ -21,7 +21,8 @@ public class BallScript : MonoBehaviour
             {
                 looseHealthRoutine = StartCoroutine(LooseHealthRoutine(col.gameObject));
             }
-           
+            managerScript.BallRemove(gameObject);
+            Destroy(gameObject);
         }
     }
     
