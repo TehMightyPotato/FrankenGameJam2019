@@ -22,7 +22,6 @@ public class BallScript : MonoBehaviour
                 looseHealthRoutine = StartCoroutine(LooseHealthRoutine(col.gameObject));
             }
             managerScript.BallRemove(gameObject);
-            Destroy(gameObject);
         }
     }
     
@@ -44,7 +43,7 @@ public class BallScript : MonoBehaviour
 
             }
             timer = timer - Time.deltaTime;
-            yield return new WaitForEndOfFrame();
+            yield return null;
         }
 
         if (timer <= 0)
