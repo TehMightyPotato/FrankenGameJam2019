@@ -25,7 +25,7 @@ public class BallManagerScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (ballList.Count >= maxBalls + deadBalls/2) return;
+        if (ballList.Count >= maxBalls + deadBalls/3) return;
         timeCounter += Time.deltaTime;
         if (timeCounter >= maxTimeCounter)
         {

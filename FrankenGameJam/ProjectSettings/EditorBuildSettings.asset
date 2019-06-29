@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Startmenu.unity
+    guid: 70e5514dce677cd45a5545eadf1af658
+  - enabled: 1
     path: Assets/Scenes/Main.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
@@ -14,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/P2WINS.unity
     guid: eefb642747d0345e08ab42591fec20d9
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: ed1a8cc79dbceae4eb9246079205124a
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: be7ce30db621de046b7d384b720c4d12,
       type: 2}
