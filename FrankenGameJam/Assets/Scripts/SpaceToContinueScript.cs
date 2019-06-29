@@ -9,7 +9,7 @@ public class SpaceToContinueScript : MonoBehaviour
     {
         if (Input.anyKeyDown)
         {
-            Invoke("PressButtonToContinue", 1f);
+            PressButtonToContinue();
         }
     }
 

@@ -7,6 +7,6 @@ public class PlayAgainScript : MonoBehaviour
 {
     public void RestartGame()
     {
-        SceneManager.LoadScene("Startmenu"); // loads current scene
+        SceneManager.LoadScene("Startmenu");
     }
 }

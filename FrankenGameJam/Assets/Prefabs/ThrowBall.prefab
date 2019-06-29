@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 605613866317702372}
   - component: {fileID: 2823447665098314436}
   - component: {fileID: 5972822200760640081}
+  - component: {fileID: -4797715405872626280}
   m_Layer: 0
   m_Name: ThrowBall
   m_TagString: Untagged
@@ -120,3 +121,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &-4797715405872626280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2845678061658037964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9865625bfa57f37439380d8c20d28fe5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  managerScript: {fileID: 0}
+  origin: {fileID: 0}
+  timer: 0
