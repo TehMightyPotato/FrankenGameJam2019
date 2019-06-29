@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.InputSystem;
 public enum Playertype
 {
     PLAYER1,
@@ -13,7 +12,6 @@ public class Movement : MonoBehaviour
     public Rigidbody2D playerRB;
     public Playertype playertype;
     public Vector2 playermov = new Vector2(0, 0);
-    public InputMaster inputs;
     public SpriteRenderer playerhalo;
     public Vector2 looking = new Vector2(0,0);
     public float rotation;
