@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class SizingBallScript : GenericBall
 {
-    public Coroutine looseHealthRoutine;
 
     public int timeCounter;
     public Vector2 transformScale;
