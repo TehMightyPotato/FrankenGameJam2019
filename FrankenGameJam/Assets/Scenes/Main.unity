@@ -381,34 +381,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1134931744 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5551278793658941474, guid: 43cb379a8ca724c11b5ef9bed12defcf,
-    type: 3}
-  m_PrefabInstance: {fileID: 5551278795069850778}
-  m_PrefabAsset: {fileID: 0}
---- !u!50 &1134931750 stripped
-Rigidbody2D:
-  m_CorrespondingSourceObject: {fileID: 5551278793658941476, guid: 43cb379a8ca724c11b5ef9bed12defcf,
-    type: 3}
-  m_PrefabInstance: {fileID: 5551278795069850778}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1134931752
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1134931744}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d14e07db3f114defa01751b2c6ede80, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ballPrefab: {fileID: 2845678061658037964, guid: c269d40810bea48029569e6961bc0846,
-    type: 3}
-  movespeedBall: 50
-  body: {fileID: 1134931750}
 --- !u!1001 &1302792664
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -567,12 +539,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 492c6bec0a57155419e371d5265fa8ce, type: 3}
---- !u!212 &1571732534 stripped
-SpriteRenderer:
-  m_CorrespondingSourceObject: {fileID: 5037059903624367606, guid: 43cb379a8ca724c11b5ef9bed12defcf,
-    type: 3}
-  m_PrefabInstance: {fileID: 1302792664}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &356381438822649004
 PrefabInstance:
   m_ObjectHideFlags: 0

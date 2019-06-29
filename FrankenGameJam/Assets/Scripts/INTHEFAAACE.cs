@@ -11,7 +11,7 @@ public class INTHEFAAACE : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -19,7 +19,7 @@ public class INTHEFAAACE : MonoBehaviour
     {
         if (Input.GetButtonDown("Fire1"))
         {
-            if(fireroutine == null)
+            if (fireroutine == null)
             {
                 fireroutine = StartCoroutine(Fire());
             }
@@ -29,15 +29,14 @@ public class INTHEFAAACE : MonoBehaviour
     public IEnumerator Fire()
     {
         Movement movescript = GetComponent<Movement>();
-        BallSpawnScript ballscript = GetComponent<BallSpawnScript>();
-        
-            var ball = Instantiate(ballPrefab, transform.position, Quaternion.identity);
-            var rbBall = ball.GetComponent<Rigidbody2D>();
-            rbBall.AddForce((body.velocity.magnitude + movespeedBall) * new Vector2(movescript.looking.x,movescript.looking.y * -1),ForceMode2D.Impulse);
-            Debug.Log("Fire!");
+        var ball = Instantiate(ballPrefab, transform.position, Quaternion.identity);
+        var rbBall = ball.GetComponent<Rigidbody2D>();
+        var ballscript = ball.GetComponent<PlayerThrownBall>();
+        ballscript.origin = gameObject;
+        rbBall.AddForce((body.velocity.magnitude + movespeedBall) * new Vector2(movescript.looking.x, movescript.looking.y * -1), ForceMode2D.Impulse);
+        Debug.Log("Fire!");
         yield return new WaitForSeconds(2);
         fireroutine = null;
-        
     }
-    
+
 }
