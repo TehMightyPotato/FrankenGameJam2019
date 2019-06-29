@@ -6,7 +6,7 @@ public class BallScript : MonoBehaviour
 {
     public BallManagerScript managerScript;
     public Coroutine looseHealthRoutine;
-
+    public float timer;
 
     public void OnTriggerEnter2D (Collider2D col)
     {
@@ -19,15 +19,40 @@ public class BallScript : MonoBehaviour
         {
             if(looseHealthRoutine == null)
             {
-                looseHealthRoutine = StartCoroutine(LooseHealthRoutine(col.gameObject.GetComponent<Health>()));
+                looseHealthRoutine = StartCoroutine(LooseHealthRoutine(col.gameObject));
             }
-            Destroy(gameObject);
+           
         }
     }
     
-    public IEnumerator LooseHealthRoutine(Health health)
+    public IEnumerator LooseHealthRoutine(GameObject player)
     {
-        health.Loosehealth();
-        yield return null;
+       Movement movescript = player.GetComponent<Movement>();
+       while(timer > 0)
+        {
+            if (movescript.playertype == Playertype.PLAYER1)
+            {
+                if (Input.GetButtonDown("CatchP1"))
+                {
+                    break;
+                }
+            }
+
+            if (movescript.playertype == Playertype.PLAYER2)
+            {
+
+            }
+            timer = timer - Time.deltaTime;
+            yield return new WaitForEndOfFrame();
+        }
+
+        if (timer <= 0)
+        {
+
+            player.GetComponent<Health>().Loosehealth();
+            yield return null;
+        }
+        Destroy(gameObject);
+
     }
 }
