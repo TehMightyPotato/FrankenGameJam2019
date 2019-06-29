@@ -27,7 +27,6 @@ public class PlayerThrownBall : GenericBall
 
     public IEnumerator LooseHealthRoutine(GameObject player)
     {
-        Movement movescript = player.GetComponent<Movement>();
         player.GetComponent<Health>().Loosehealth();
         yield return null;
         Destroy(gameObject);
