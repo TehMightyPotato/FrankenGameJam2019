@@ -6,6 +6,7 @@ TagManager:
   tags:
   - BallBorder
   - BallSpawner
+  - Ball
   layers:
   - Default
   - TransparentFX
