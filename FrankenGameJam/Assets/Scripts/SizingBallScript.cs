@@ -39,7 +39,6 @@ public class SizingBallScript : GenericBall
     {
         if (col.CompareTag("BallBorder"))
         {
-            managerScript.BallRemove(gameObject);
             Destroy(gameObject);
         }
         if (col.CompareTag("Player"))
@@ -48,8 +47,7 @@ public class SizingBallScript : GenericBall
             {
                 looseHealthRoutine = StartCoroutine(LooseHealthRoutine(col.gameObject));
             }
-            managerScript.BallRemove(gameObject);
-            Destroy(gameObject);
         }
+        managerScript.BallRemove(gameObject);
     }
 }

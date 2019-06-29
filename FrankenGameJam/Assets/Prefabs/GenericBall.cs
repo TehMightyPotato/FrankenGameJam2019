@@ -41,7 +41,6 @@ public class GenericBall : MonoBehaviour
 
         if (timer <= 0)
         {
-            movescript.playerhalo.enabled = false;
             player.GetComponent<Health>().Loosehealth();
             yield return null;
         }

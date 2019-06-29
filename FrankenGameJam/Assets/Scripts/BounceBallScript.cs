@@ -18,11 +18,11 @@ public class BounceBallScript : GenericBall
             if(bounceRoutine == null)
             {
                 bounceRoutine = StartCoroutine(RealBounce());
+                return;
             }
         }
         if (col.CompareTag("BallBorder") && bounceCounter == 2)
         {
-            managerScript.BallRemove(gameObject);
             Destroy(gameObject);
         }
         if (col.CompareTag("Player"))
@@ -31,11 +31,10 @@ public class BounceBallScript : GenericBall
             {
                 looseHealthRoutine = StartCoroutine(LooseHealthRoutine(col.gameObject));
             }
-            managerScript.BallRemove(gameObject);
-            Destroy(gameObject);
         }
+        managerScript.BallRemove(gameObject);
     }
-   
+
     public IEnumerator RealBounce()
     {
         rbBounceBall.velocity = rbBounceBall.velocity * -1;
