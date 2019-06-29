@@ -9,6 +9,8 @@ public class SPACEGHOST : MonoBehaviour
 	public Rigidbody2D rb;
 	public Coroutine timeroutine;
     public BallSpawnScript spawner;
+    public float timer;
+    public float currenttimer;
     // Start is called before the first frame update
     void Start()
 	{
@@ -19,7 +21,12 @@ public class SPACEGHOST : MonoBehaviour
 	// Update is called once per frame
 	void Update()
 	{
-    
+        if(currenttimer >= timer)
+        {
+            spawner.SpawnBall();
+            currenttimer = 0;
+        }
+        currenttimer += Time.deltaTime;
     }
 
     void FixedUpdate()

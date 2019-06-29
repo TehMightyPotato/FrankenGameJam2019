@@ -716,6 +716,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1737475603 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8766547147824727196, guid: 4ac32519bd7f74f03a33f64b4499ac6e,
+    type: 3}
+  m_PrefabInstance: {fileID: 2265755362857995118}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fda9a1feb9b7ef4e9bbebc0c4392629, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &1754334408 stripped
 SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 5037059903624367606, guid: 43cb379a8ca724c11b5ef9bed12defcf,
@@ -947,6 +959,16 @@ PrefabInstance:
       propertyPath: waypointR
       value: 
       objectReference: {fileID: 1650111895}
+    - target: {fileID: 2265755361654248173, guid: 4ac32519bd7f74f03a33f64b4499ac6e,
+        type: 3}
+      propertyPath: timer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2265755361654248173, guid: 4ac32519bd7f74f03a33f64b4499ac6e,
+        type: 3}
+      propertyPath: spawner
+      value: 
+      objectReference: {fileID: 1737475603}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ac32519bd7f74f03a33f64b4499ac6e, type: 3}
 --- !u!1001 &4563939298433833391

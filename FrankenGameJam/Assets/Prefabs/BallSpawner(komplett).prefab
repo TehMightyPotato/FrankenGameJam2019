@@ -59,6 +59,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6424486574062122274}
     m_Modifications:
+    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
+        type: 3}
+      propertyPath: m_Name
+      value: BallSpawner (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
+        type: 3}
+      propertyPath: m_TagString
+      value: BallSpawner
+      objectReference: {fileID: 0}
     - target: {fileID: 1418215826539953924, guid: 7c79f17617e02aa43a407a55b84281bb,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -114,16 +124,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: m_Name
-      value: BallSpawner (8)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: m_TagString
-      value: BallSpawner
-      objectReference: {fileID: 0}
     - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
         type: 3}
       propertyPath: ballPrefab
@@ -132,27 +132,9 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
         type: 3}
-      propertyPath: movespeedBall
-      value: 100
+      propertyPath: shootingDirection
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: ball1
-      value: 
-      objectReference: {fileID: 2845678061658037964, guid: fd0d82e69e550304d8e7f2fbcc5b4062,
-        type: 3}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: ball2
-      value: 
-      objectReference: {fileID: 8131853334237011569, guid: d0cbaae9fd2edf445946139b5ec4b663,
-        type: 3}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: ball3
-      value: 
-      objectReference: {fileID: 4642866412055364829, guid: 8451c7a1607aada4fbddc53342622cd5,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c79f17617e02aa43a407a55b84281bb, type: 3}
 --- !u!4 &1228034471390648791 stripped
@@ -168,6 +150,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6424486574062122274}
     m_Modifications:
+    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
+        type: 3}
+      propertyPath: m_Name
+      value: BallSpawner (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
+        type: 3}
+      propertyPath: m_TagString
+      value: BallSpawner
+      objectReference: {fileID: 0}
     - target: {fileID: 1418215826539953924, guid: 7c79f17617e02aa43a407a55b84281bb,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -223,16 +215,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: m_Name
-      value: BallSpawner (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: m_TagString
-      value: BallSpawner
-      objectReference: {fileID: 0}
     - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
         type: 3}
       propertyPath: ballPrefab
@@ -241,32 +223,9 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
         type: 3}
-      propertyPath: movespeedBall
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
       propertyPath: shootingDirection
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: ball1
-      value: 
-      objectReference: {fileID: 2845678061658037964, guid: fd0d82e69e550304d8e7f2fbcc5b4062,
-        type: 3}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: ball2
-      value: 
-      objectReference: {fileID: 8131853334237011569, guid: d0cbaae9fd2edf445946139b5ec4b663,
-        type: 3}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: ball3
-      value: 
-      objectReference: {fileID: 4642866412055364829, guid: 8451c7a1607aada4fbddc53342622cd5,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c79f17617e02aa43a407a55b84281bb, type: 3}
 --- !u!4 &2106330933943122018 stripped
@@ -282,6 +241,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6424486574062122274}
     m_Modifications:
+    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
+        type: 3}
+      propertyPath: m_Name
+      value: BallSpawner (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
+        type: 3}
+      propertyPath: m_TagString
+      value: BallSpawner
+      objectReference: {fileID: 0}
     - target: {fileID: 1418215826539953924, guid: 7c79f17617e02aa43a407a55b84281bb,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -337,16 +306,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: m_Name
-      value: BallSpawner (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: m_TagString
-      value: BallSpawner
-      objectReference: {fileID: 0}
     - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
         type: 3}
       propertyPath: ballPrefab
@@ -355,32 +314,9 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
         type: 3}
-      propertyPath: movespeedBall
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
       propertyPath: shootingDirection
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: ball1
-      value: 
-      objectReference: {fileID: 2845678061658037964, guid: fd0d82e69e550304d8e7f2fbcc5b4062,
-        type: 3}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: ball2
-      value: 
-      objectReference: {fileID: 8131853334237011569, guid: d0cbaae9fd2edf445946139b5ec4b663,
-        type: 3}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: ball3
-      value: 
-      objectReference: {fileID: 4642866412055364829, guid: 8451c7a1607aada4fbddc53342622cd5,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c79f17617e02aa43a407a55b84281bb, type: 3}
 --- !u!4 &2106330933869445374 stripped
@@ -396,6 +332,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6424486574062122274}
     m_Modifications:
+    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
+        type: 3}
+      propertyPath: m_Name
+      value: BallSpawner (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
+        type: 3}
+      propertyPath: m_TagString
+      value: BallSpawner
+      objectReference: {fileID: 0}
     - target: {fileID: 1418215826539953924, guid: 7c79f17617e02aa43a407a55b84281bb,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -451,49 +397,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: m_Name
-      value: BallSpawner (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: m_TagString
-      value: BallSpawner
-      objectReference: {fileID: 0}
     - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
         type: 3}
       propertyPath: ballPrefab
       value: 
       objectReference: {fileID: 2845678061658037964, guid: fd0d82e69e550304d8e7f2fbcc5b4062,
-        type: 3}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: movespeedBall
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: shootingDirection
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: ball1
-      value: 
-      objectReference: {fileID: 2845678061658037964, guid: fd0d82e69e550304d8e7f2fbcc5b4062,
-        type: 3}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: ball2
-      value: 
-      objectReference: {fileID: 8131853334237011569, guid: d0cbaae9fd2edf445946139b5ec4b663,
-        type: 3}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: ball3
-      value: 
-      objectReference: {fileID: 4642866412055364829, guid: 8451c7a1607aada4fbddc53342622cd5,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c79f17617e02aa43a407a55b84281bb, type: 3}
@@ -510,6 +418,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6424486574062122274}
     m_Modifications:
+    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
+        type: 3}
+      propertyPath: m_Name
+      value: BallSpawner (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
+        type: 3}
+      propertyPath: m_TagString
+      value: BallSpawner
+      objectReference: {fileID: 0}
     - target: {fileID: 1418215826539953924, guid: 7c79f17617e02aa43a407a55b84281bb,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -565,16 +483,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: m_Name
-      value: BallSpawner (14)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: m_TagString
-      value: BallSpawner
-      objectReference: {fileID: 0}
     - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
         type: 3}
       propertyPath: ballPrefab
@@ -583,32 +491,9 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
         type: 3}
-      propertyPath: movespeedBall
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
       propertyPath: shootingDirection
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: ball1
-      value: 
-      objectReference: {fileID: 2845678061658037964, guid: fd0d82e69e550304d8e7f2fbcc5b4062,
-        type: 3}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: ball2
-      value: 
-      objectReference: {fileID: 8131853334237011569, guid: d0cbaae9fd2edf445946139b5ec4b663,
-        type: 3}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: ball3
-      value: 
-      objectReference: {fileID: 4642866412055364829, guid: 8451c7a1607aada4fbddc53342622cd5,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c79f17617e02aa43a407a55b84281bb, type: 3}
 --- !u!4 &2086376910804466121 stripped
@@ -624,6 +509,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6424486574062122274}
     m_Modifications:
+    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
+        type: 3}
+      propertyPath: m_Name
+      value: BallSpawner (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
+        type: 3}
+      propertyPath: m_TagString
+      value: BallSpawner
+      objectReference: {fileID: 0}
     - target: {fileID: 1418215826539953924, guid: 7c79f17617e02aa43a407a55b84281bb,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -679,49 +574,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: m_Name
-      value: BallSpawner (9)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: m_TagString
-      value: BallSpawner
-      objectReference: {fileID: 0}
     - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
         type: 3}
       propertyPath: ballPrefab
       value: 
       objectReference: {fileID: 2845678061658037964, guid: fd0d82e69e550304d8e7f2fbcc5b4062,
-        type: 3}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: movespeedBall
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: shootingDirection
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: ball1
-      value: 
-      objectReference: {fileID: 2845678061658037964, guid: fd0d82e69e550304d8e7f2fbcc5b4062,
-        type: 3}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: ball2
-      value: 
-      objectReference: {fileID: 8131853334237011569, guid: d0cbaae9fd2edf445946139b5ec4b663,
-        type: 3}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: ball3
-      value: 
-      objectReference: {fileID: 4642866412055364829, guid: 8451c7a1607aada4fbddc53342622cd5,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c79f17617e02aa43a407a55b84281bb, type: 3}
@@ -738,6 +595,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6424486574062122274}
     m_Modifications:
+    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
+        type: 3}
+      propertyPath: m_Name
+      value: BallSpawner (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
+        type: 3}
+      propertyPath: m_TagString
+      value: BallSpawner
+      objectReference: {fileID: 0}
     - target: {fileID: 1418215826539953924, guid: 7c79f17617e02aa43a407a55b84281bb,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -793,16 +660,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: m_Name
-      value: BallSpawner (16)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: m_TagString
-      value: BallSpawner
-      objectReference: {fileID: 0}
     - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
         type: 3}
       propertyPath: ballPrefab
@@ -811,32 +668,9 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
         type: 3}
-      propertyPath: movespeedBall
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
       propertyPath: shootingDirection
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: ball1
-      value: 
-      objectReference: {fileID: 2845678061658037964, guid: fd0d82e69e550304d8e7f2fbcc5b4062,
-        type: 3}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: ball2
-      value: 
-      objectReference: {fileID: 8131853334237011569, guid: d0cbaae9fd2edf445946139b5ec4b663,
-        type: 3}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: ball3
-      value: 
-      objectReference: {fileID: 4642866412055364829, guid: 8451c7a1607aada4fbddc53342622cd5,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c79f17617e02aa43a407a55b84281bb, type: 3}
 --- !u!4 &4149388729791096247 stripped
@@ -852,6 +686,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6424486574062122274}
     m_Modifications:
+    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
+        type: 3}
+      propertyPath: m_Name
+      value: BallSpawner (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
+        type: 3}
+      propertyPath: m_TagString
+      value: BallSpawner
+      objectReference: {fileID: 0}
     - target: {fileID: 1418215826539953924, guid: 7c79f17617e02aa43a407a55b84281bb,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -907,16 +751,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: m_Name
-      value: BallSpawner (4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: m_TagString
-      value: BallSpawner
-      objectReference: {fileID: 0}
     - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
         type: 3}
       propertyPath: ballPrefab
@@ -925,27 +759,9 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
         type: 3}
-      propertyPath: movespeedBall
-      value: 100
+      propertyPath: shootingDirection
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: ball1
-      value: 
-      objectReference: {fileID: 2845678061658037964, guid: fd0d82e69e550304d8e7f2fbcc5b4062,
-        type: 3}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: ball2
-      value: 
-      objectReference: {fileID: 8131853334237011569, guid: d0cbaae9fd2edf445946139b5ec4b663,
-        type: 3}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: ball3
-      value: 
-      objectReference: {fileID: 4642866412055364829, guid: 8451c7a1607aada4fbddc53342622cd5,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c79f17617e02aa43a407a55b84281bb, type: 3}
 --- !u!4 &4588113880633166289 stripped
@@ -961,6 +777,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6424486574062122274}
     m_Modifications:
+    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
+        type: 3}
+      propertyPath: m_Name
+      value: BallSpawner (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
+        type: 3}
+      propertyPath: m_TagString
+      value: BallSpawner
+      objectReference: {fileID: 0}
     - target: {fileID: 1418215826539953924, guid: 7c79f17617e02aa43a407a55b84281bb,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1016,49 +842,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: m_Name
-      value: BallSpawner (10)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: m_TagString
-      value: BallSpawner
-      objectReference: {fileID: 0}
     - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
         type: 3}
       propertyPath: ballPrefab
       value: 
       objectReference: {fileID: 2845678061658037964, guid: fd0d82e69e550304d8e7f2fbcc5b4062,
-        type: 3}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: movespeedBall
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: shootingDirection
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: ball1
-      value: 
-      objectReference: {fileID: 2845678061658037964, guid: fd0d82e69e550304d8e7f2fbcc5b4062,
-        type: 3}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: ball2
-      value: 
-      objectReference: {fileID: 8131853334237011569, guid: d0cbaae9fd2edf445946139b5ec4b663,
-        type: 3}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: ball3
-      value: 
-      objectReference: {fileID: 4642866412055364829, guid: 8451c7a1607aada4fbddc53342622cd5,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c79f17617e02aa43a407a55b84281bb, type: 3}
@@ -1075,6 +863,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6424486574062122274}
     m_Modifications:
+    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
+        type: 3}
+      propertyPath: m_Name
+      value: BallSpawner (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
+        type: 3}
+      propertyPath: m_TagString
+      value: BallSpawner
+      objectReference: {fileID: 0}
     - target: {fileID: 1418215826539953924, guid: 7c79f17617e02aa43a407a55b84281bb,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1130,16 +928,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: m_Name
-      value: BallSpawner (6)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: m_TagString
-      value: BallSpawner
-      objectReference: {fileID: 0}
     - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
         type: 3}
       propertyPath: ballPrefab
@@ -1148,27 +936,9 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
         type: 3}
-      propertyPath: movespeedBall
-      value: 100
+      propertyPath: shootingDirection
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: ball1
-      value: 
-      objectReference: {fileID: 2845678061658037964, guid: fd0d82e69e550304d8e7f2fbcc5b4062,
-        type: 3}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: ball2
-      value: 
-      objectReference: {fileID: 8131853334237011569, guid: d0cbaae9fd2edf445946139b5ec4b663,
-        type: 3}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: ball3
-      value: 
-      objectReference: {fileID: 4642866412055364829, guid: 8451c7a1607aada4fbddc53342622cd5,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c79f17617e02aa43a407a55b84281bb, type: 3}
 --- !u!4 &3045665353739394805 stripped
@@ -1184,6 +954,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6424486574062122274}
     m_Modifications:
+    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
+        type: 3}
+      propertyPath: m_Name
+      value: BallSpawner (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
+        type: 3}
+      propertyPath: m_TagString
+      value: BallSpawner
+      objectReference: {fileID: 0}
     - target: {fileID: 1418215826539953924, guid: 7c79f17617e02aa43a407a55b84281bb,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1239,49 +1019,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: m_Name
-      value: BallSpawner (11)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: m_TagString
-      value: BallSpawner
-      objectReference: {fileID: 0}
     - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
         type: 3}
       propertyPath: ballPrefab
       value: 
       objectReference: {fileID: 2845678061658037964, guid: fd0d82e69e550304d8e7f2fbcc5b4062,
-        type: 3}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: movespeedBall
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: shootingDirection
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: ball1
-      value: 
-      objectReference: {fileID: 2845678061658037964, guid: fd0d82e69e550304d8e7f2fbcc5b4062,
-        type: 3}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: ball2
-      value: 
-      objectReference: {fileID: 8131853334237011569, guid: d0cbaae9fd2edf445946139b5ec4b663,
-        type: 3}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: ball3
-      value: 
-      objectReference: {fileID: 4642866412055364829, guid: 8451c7a1607aada4fbddc53342622cd5,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c79f17617e02aa43a407a55b84281bb, type: 3}
@@ -1298,6 +1040,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6424486574062122274}
     m_Modifications:
+    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
+        type: 3}
+      propertyPath: m_Name
+      value: BallSpawner (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
+        type: 3}
+      propertyPath: m_TagString
+      value: BallSpawner
+      objectReference: {fileID: 0}
     - target: {fileID: 1418215826539953924, guid: 7c79f17617e02aa43a407a55b84281bb,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1353,16 +1105,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: m_Name
-      value: BallSpawner (21)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: m_TagString
-      value: BallSpawner
-      objectReference: {fileID: 0}
     - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
         type: 3}
       propertyPath: ballPrefab
@@ -1371,32 +1113,9 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
         type: 3}
-      propertyPath: movespeedBall
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
       propertyPath: shootingDirection
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: ball1
-      value: 
-      objectReference: {fileID: 2845678061658037964, guid: fd0d82e69e550304d8e7f2fbcc5b4062,
-        type: 3}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: ball2
-      value: 
-      objectReference: {fileID: 8131853334237011569, guid: d0cbaae9fd2edf445946139b5ec4b663,
-        type: 3}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: ball3
-      value: 
-      objectReference: {fileID: 4642866412055364829, guid: 8451c7a1607aada4fbddc53342622cd5,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c79f17617e02aa43a407a55b84281bb, type: 3}
 --- !u!4 &6391786799834795650 stripped
@@ -1412,6 +1131,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6424486574062122274}
     m_Modifications:
+    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
+        type: 3}
+      propertyPath: m_Name
+      value: BallSpawner (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
+        type: 3}
+      propertyPath: m_TagString
+      value: BallSpawner
+      objectReference: {fileID: 0}
     - target: {fileID: 1418215826539953924, guid: 7c79f17617e02aa43a407a55b84281bb,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1467,49 +1196,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: m_Name
-      value: BallSpawner (13)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: m_TagString
-      value: BallSpawner
-      objectReference: {fileID: 0}
     - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
         type: 3}
       propertyPath: ballPrefab
       value: 
       objectReference: {fileID: 2845678061658037964, guid: fd0d82e69e550304d8e7f2fbcc5b4062,
-        type: 3}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: movespeedBall
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: shootingDirection
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: ball1
-      value: 
-      objectReference: {fileID: 2845678061658037964, guid: fd0d82e69e550304d8e7f2fbcc5b4062,
-        type: 3}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: ball2
-      value: 
-      objectReference: {fileID: 8131853334237011569, guid: d0cbaae9fd2edf445946139b5ec4b663,
-        type: 3}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: ball3
-      value: 
-      objectReference: {fileID: 4642866412055364829, guid: 8451c7a1607aada4fbddc53342622cd5,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c79f17617e02aa43a407a55b84281bb, type: 3}
@@ -1526,6 +1217,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6424486574062122274}
     m_Modifications:
+    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
+        type: 3}
+      propertyPath: m_Name
+      value: BallSpawner (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
+        type: 3}
+      propertyPath: m_TagString
+      value: BallSpawner
+      objectReference: {fileID: 0}
     - target: {fileID: 1418215826539953924, guid: 7c79f17617e02aa43a407a55b84281bb,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1581,16 +1282,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: m_Name
-      value: BallSpawner (5)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: m_TagString
-      value: BallSpawner
-      objectReference: {fileID: 0}
     - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
         type: 3}
       propertyPath: ballPrefab
@@ -1599,27 +1290,9 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
         type: 3}
-      propertyPath: movespeedBall
-      value: 100
+      propertyPath: shootingDirection
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: ball1
-      value: 
-      objectReference: {fileID: 2845678061658037964, guid: fd0d82e69e550304d8e7f2fbcc5b4062,
-        type: 3}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: ball2
-      value: 
-      objectReference: {fileID: 8131853334237011569, guid: d0cbaae9fd2edf445946139b5ec4b663,
-        type: 3}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: ball3
-      value: 
-      objectReference: {fileID: 4642866412055364829, guid: 8451c7a1607aada4fbddc53342622cd5,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c79f17617e02aa43a407a55b84281bb, type: 3}
 --- !u!4 &5169523170713417805 stripped
@@ -1635,6 +1308,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6424486574062122274}
     m_Modifications:
+    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
+        type: 3}
+      propertyPath: m_Name
+      value: BallSpawner (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
+        type: 3}
+      propertyPath: m_TagString
+      value: BallSpawner
+      objectReference: {fileID: 0}
     - target: {fileID: 1418215826539953924, guid: 7c79f17617e02aa43a407a55b84281bb,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1690,16 +1373,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: m_Name
-      value: BallSpawner (7)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: m_TagString
-      value: BallSpawner
-      objectReference: {fileID: 0}
     - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
         type: 3}
       propertyPath: ballPrefab
@@ -1708,27 +1381,9 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
         type: 3}
-      propertyPath: movespeedBall
-      value: 100
+      propertyPath: shootingDirection
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: ball1
-      value: 
-      objectReference: {fileID: 2845678061658037964, guid: fd0d82e69e550304d8e7f2fbcc5b4062,
-        type: 3}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: ball2
-      value: 
-      objectReference: {fileID: 8131853334237011569, guid: d0cbaae9fd2edf445946139b5ec4b663,
-        type: 3}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: ball3
-      value: 
-      objectReference: {fileID: 4642866412055364829, guid: 8451c7a1607aada4fbddc53342622cd5,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c79f17617e02aa43a407a55b84281bb, type: 3}
 --- !u!4 &5502224723254853632 stripped
@@ -1744,6 +1399,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6424486574062122274}
     m_Modifications:
+    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
+        type: 3}
+      propertyPath: m_Name
+      value: BallSpawner (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
+        type: 3}
+      propertyPath: m_TagString
+      value: BallSpawner
+      objectReference: {fileID: 0}
     - target: {fileID: 1418215826539953924, guid: 7c79f17617e02aa43a407a55b84281bb,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1799,16 +1464,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: m_Name
-      value: BallSpawner (20)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: m_TagString
-      value: BallSpawner
-      objectReference: {fileID: 0}
     - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
         type: 3}
       propertyPath: ballPrefab
@@ -1817,32 +1472,9 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
         type: 3}
-      propertyPath: movespeedBall
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
       propertyPath: shootingDirection
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: ball1
-      value: 
-      objectReference: {fileID: 2845678061658037964, guid: fd0d82e69e550304d8e7f2fbcc5b4062,
-        type: 3}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: ball2
-      value: 
-      objectReference: {fileID: 8131853334237011569, guid: d0cbaae9fd2edf445946139b5ec4b663,
-        type: 3}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: ball3
-      value: 
-      objectReference: {fileID: 4642866412055364829, guid: 8451c7a1607aada4fbddc53342622cd5,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c79f17617e02aa43a407a55b84281bb, type: 3}
 --- !u!4 &8601108078708021851 stripped
@@ -1858,6 +1490,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6424486574062122274}
     m_Modifications:
+    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
+        type: 3}
+      propertyPath: m_Name
+      value: BallSpawner (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
+        type: 3}
+      propertyPath: m_TagString
+      value: BallSpawner
+      objectReference: {fileID: 0}
     - target: {fileID: 1418215826539953924, guid: 7c79f17617e02aa43a407a55b84281bb,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1913,16 +1555,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: m_Name
-      value: BallSpawner (17)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: m_TagString
-      value: BallSpawner
-      objectReference: {fileID: 0}
     - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
         type: 3}
       propertyPath: ballPrefab
@@ -1931,32 +1563,9 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
         type: 3}
-      propertyPath: movespeedBall
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
       propertyPath: shootingDirection
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: ball1
-      value: 
-      objectReference: {fileID: 2845678061658037964, guid: fd0d82e69e550304d8e7f2fbcc5b4062,
-        type: 3}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: ball2
-      value: 
-      objectReference: {fileID: 8131853334237011569, guid: d0cbaae9fd2edf445946139b5ec4b663,
-        type: 3}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: ball3
-      value: 
-      objectReference: {fileID: 4642866412055364829, guid: 8451c7a1607aada4fbddc53342622cd5,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c79f17617e02aa43a407a55b84281bb, type: 3}
 --- !u!4 &8454747400613198551 stripped
@@ -1972,6 +1581,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6424486574062122274}
     m_Modifications:
+    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
+        type: 3}
+      propertyPath: m_Name
+      value: BallSpawner (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
+        type: 3}
+      propertyPath: m_TagString
+      value: BallSpawner
+      objectReference: {fileID: 0}
     - target: {fileID: 1418215826539953924, guid: 7c79f17617e02aa43a407a55b84281bb,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2027,16 +1646,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: m_Name
-      value: BallSpawner (15)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: m_TagString
-      value: BallSpawner
-      objectReference: {fileID: 0}
     - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
         type: 3}
       propertyPath: ballPrefab
@@ -2045,32 +1654,9 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
         type: 3}
-      propertyPath: movespeedBall
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
       propertyPath: shootingDirection
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: ball1
-      value: 
-      objectReference: {fileID: 2845678061658037964, guid: fd0d82e69e550304d8e7f2fbcc5b4062,
-        type: 3}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: ball2
-      value: 
-      objectReference: {fileID: 8131853334237011569, guid: d0cbaae9fd2edf445946139b5ec4b663,
-        type: 3}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: ball3
-      value: 
-      objectReference: {fileID: 4642866412055364829, guid: 8451c7a1607aada4fbddc53342622cd5,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c79f17617e02aa43a407a55b84281bb, type: 3}
 --- !u!4 &8691675432078220252 stripped
@@ -2086,6 +1672,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6424486574062122274}
     m_Modifications:
+    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
+        type: 3}
+      propertyPath: m_Name
+      value: BallSpawner
+      objectReference: {fileID: 0}
+    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
+        type: 3}
+      propertyPath: m_TagString
+      value: BallSpawner
+      objectReference: {fileID: 0}
     - target: {fileID: 1418215826539953924, guid: 7c79f17617e02aa43a407a55b84281bb,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2141,16 +1737,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: m_Name
-      value: BallSpawner
-      objectReference: {fileID: 0}
-    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: m_TagString
-      value: BallSpawner
-      objectReference: {fileID: 0}
     - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
         type: 3}
       propertyPath: ballPrefab
@@ -2159,27 +1745,9 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
         type: 3}
-      propertyPath: movespeedBall
-      value: 100
+      propertyPath: shootingDirection
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: ball1
-      value: 
-      objectReference: {fileID: 2845678061658037964, guid: fd0d82e69e550304d8e7f2fbcc5b4062,
-        type: 3}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: ball2
-      value: 
-      objectReference: {fileID: 8131853334237011569, guid: d0cbaae9fd2edf445946139b5ec4b663,
-        type: 3}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: ball3
-      value: 
-      objectReference: {fileID: 4642866412055364829, guid: 8451c7a1607aada4fbddc53342622cd5,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c79f17617e02aa43a407a55b84281bb, type: 3}
 --- !u!4 &8668396058958424601 stripped
@@ -2195,6 +1763,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6424486574062122274}
     m_Modifications:
+    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
+        type: 3}
+      propertyPath: m_Name
+      value: BallSpawner (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
+        type: 3}
+      propertyPath: m_TagString
+      value: BallSpawner
+      objectReference: {fileID: 0}
     - target: {fileID: 1418215826539953924, guid: 7c79f17617e02aa43a407a55b84281bb,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2250,16 +1828,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: m_Name
-      value: BallSpawner (19)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: m_TagString
-      value: BallSpawner
-      objectReference: {fileID: 0}
     - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
         type: 3}
       propertyPath: ballPrefab
@@ -2268,32 +1836,9 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
         type: 3}
-      propertyPath: movespeedBall
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
       propertyPath: shootingDirection
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: ball1
-      value: 
-      objectReference: {fileID: 2845678061658037964, guid: fd0d82e69e550304d8e7f2fbcc5b4062,
-        type: 3}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: ball2
-      value: 
-      objectReference: {fileID: 8131853334237011569, guid: d0cbaae9fd2edf445946139b5ec4b663,
-        type: 3}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: ball3
-      value: 
-      objectReference: {fileID: 4642866412055364829, guid: 8451c7a1607aada4fbddc53342622cd5,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c79f17617e02aa43a407a55b84281bb, type: 3}
 --- !u!4 &8988660981859095846 stripped
@@ -2309,6 +1854,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6424486574062122274}
     m_Modifications:
+    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
+        type: 3}
+      propertyPath: m_Name
+      value: BallSpawner (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
+        type: 3}
+      propertyPath: m_TagString
+      value: BallSpawner
+      objectReference: {fileID: 0}
     - target: {fileID: 1418215826539953924, guid: 7c79f17617e02aa43a407a55b84281bb,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2364,49 +1919,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: m_Name
-      value: BallSpawner (12)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: m_TagString
-      value: BallSpawner
-      objectReference: {fileID: 0}
     - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
         type: 3}
       propertyPath: ballPrefab
       value: 
       objectReference: {fileID: 2845678061658037964, guid: fd0d82e69e550304d8e7f2fbcc5b4062,
-        type: 3}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: movespeedBall
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: shootingDirection
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: ball1
-      value: 
-      objectReference: {fileID: 2845678061658037964, guid: fd0d82e69e550304d8e7f2fbcc5b4062,
-        type: 3}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: ball2
-      value: 
-      objectReference: {fileID: 8131853334237011569, guid: d0cbaae9fd2edf445946139b5ec4b663,
-        type: 3}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: ball3
-      value: 
-      objectReference: {fileID: 4642866412055364829, guid: 8451c7a1607aada4fbddc53342622cd5,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c79f17617e02aa43a407a55b84281bb, type: 3}
@@ -2423,6 +1940,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6424486574062122274}
     m_Modifications:
+    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
+        type: 3}
+      propertyPath: m_Name
+      value: BallSpawner (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
+        type: 3}
+      propertyPath: m_TagString
+      value: BallSpawner
+      objectReference: {fileID: 0}
     - target: {fileID: 1418215826539953924, guid: 7c79f17617e02aa43a407a55b84281bb,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2478,16 +2005,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: m_Name
-      value: BallSpawner (18)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5771097363771733296, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: m_TagString
-      value: BallSpawner
-      objectReference: {fileID: 0}
     - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
         type: 3}
       propertyPath: ballPrefab
@@ -2496,32 +2013,9 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
         type: 3}
-      propertyPath: movespeedBall
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
       propertyPath: shootingDirection
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: ball1
-      value: 
-      objectReference: {fileID: 2845678061658037964, guid: fd0d82e69e550304d8e7f2fbcc5b4062,
-        type: 3}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: ball2
-      value: 
-      objectReference: {fileID: 8131853334237011569, guid: d0cbaae9fd2edf445946139b5ec4b663,
-        type: 3}
-    - target: {fileID: 6002324977487303343, guid: 7c79f17617e02aa43a407a55b84281bb,
-        type: 3}
-      propertyPath: ball3
-      value: 
-      objectReference: {fileID: 4642866412055364829, guid: 8451c7a1607aada4fbddc53342622cd5,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c79f17617e02aa43a407a55b84281bb, type: 3}
 --- !u!4 &7869309110998693840 stripped
