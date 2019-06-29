@@ -120,6 +120,12 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!212 &411950268 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 5037059903624367606, guid: 43cb379a8ca724c11b5ef9bed12defcf,
+    type: 3}
+  m_PrefabInstance: {fileID: 5551278795069850778}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -294,6 +300,34 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1134931744 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5551278793658941474, guid: 43cb379a8ca724c11b5ef9bed12defcf,
+    type: 3}
+  m_PrefabInstance: {fileID: 5551278795069850778}
+  m_PrefabAsset: {fileID: 0}
+--- !u!50 &1134931750 stripped
+Rigidbody2D:
+  m_CorrespondingSourceObject: {fileID: 5551278793658941476, guid: 43cb379a8ca724c11b5ef9bed12defcf,
+    type: 3}
+  m_PrefabInstance: {fileID: 5551278795069850778}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1134931752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1134931744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d14e07db3f114defa01751b2c6ede80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ballPrefab: {fileID: 2845678061658037964, guid: c269d40810bea48029569e6961bc0846,
+    type: 3}
+  movespeedBall: 50
+  body: {fileID: 1134931750}
 --- !u!1001 &1302792664
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -371,6 +405,16 @@ PrefabInstance:
       propertyPath: playertype
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5551278793658941475, guid: 43cb379a8ca724c11b5ef9bed12defcf,
+        type: 3}
+      propertyPath: playerhalo
+      value: 
+      objectReference: {fileID: 1571732534}
+    - target: {fileID: 5037059903624367606, guid: 43cb379a8ca724c11b5ef9bed12defcf,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43cb379a8ca724c11b5ef9bed12defcf, type: 3}
 --- !u!1001 &1519362839
@@ -442,6 +486,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 492c6bec0a57155419e371d5265fa8ce, type: 3}
+--- !u!212 &1571732534 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 5037059903624367606, guid: 43cb379a8ca724c11b5ef9bed12defcf,
+    type: 3}
+  m_PrefabInstance: {fileID: 1302792664}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &356381438822649004
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -453,6 +503,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BallManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 2917839422256736677, guid: 92ce7878d232e4042b158a00815d4e95,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7487249903120519449, guid: 92ce7878d232e4042b158a00815d4e95,
         type: 3}
@@ -527,6 +582,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BallSpawner(komplett)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8451499119263062720, guid: 1b1c7bf09629b95468b8e8929df510ac,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6424486574062122274, guid: 1b1c7bf09629b95468b8e8929df510ac,
         type: 3}
@@ -1400,10 +1460,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5551278793658941472, guid: 43cb379a8ca724c11b5ef9bed12defcf,
+    - target: {fileID: 5551278793658941475, guid: 43cb379a8ca724c11b5ef9bed12defcf,
         type: 3}
-      propertyPath: bounce
-      value: 35
+      propertyPath: playerhalo
+      value: 
+      objectReference: {fileID: 411950268}
+    - target: {fileID: 5037059903624367606, guid: 43cb379a8ca724c11b5ef9bed12defcf,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43cb379a8ca724c11b5ef9bed12defcf, type: 3}
