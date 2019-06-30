@@ -4,7 +4,7 @@ using UnityEngine;
 public enum Playertype
 {
     PLAYER1,
-    PLAYER2
+    PLAYER2,
 }
 public class Movement : MonoBehaviour
 {

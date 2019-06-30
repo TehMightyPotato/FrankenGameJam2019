@@ -969,6 +969,11 @@ PrefabInstance:
       propertyPath: spawner
       value: 
       objectReference: {fileID: 1737475603}
+    - target: {fileID: 2265755361654248173, guid: 4ac32519bd7f74f03a33f64b4499ac6e,
+        type: 3}
+      propertyPath: spacemaxhealth
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ac32519bd7f74f03a33f64b4499ac6e, type: 3}
 --- !u!1001 &4563939298433833391
@@ -1137,6 +1142,11 @@ PrefabInstance:
         type: 3}
       propertyPath: catchCooldown
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5551278793658941475, guid: 43cb379a8ca724c11b5ef9bed12defcf,
+        type: 3}
+      propertyPath: playertype
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6881438845066005342, guid: 43cb379a8ca724c11b5ef9bed12defcf,
         type: 3}

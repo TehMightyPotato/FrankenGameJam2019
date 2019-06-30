@@ -28,9 +28,9 @@ public class INTHEFAAACE : MonoBehaviour
                 }
             }
         }
-        if (movementScript.playertype == Playertype.PLAYER2 && movementScript.looking.magnitude != 0)
+        if (movementScript.playertype == Playertype.PLAYER2)
         {
-            if (Input.GetButtonDown("Fire2"))
+            if (Input.GetButtonDown("Fire2") && movementScript.looking.magnitude != 0)
             {
                 if (fireroutine == null)
                 {
@@ -47,7 +47,6 @@ public class INTHEFAAACE : MonoBehaviour
         var ballscript = ball.GetComponent<PlayerThrownBall>();
         ballscript.origin = gameObject;
         rbBall.AddForce((body.velocity.magnitude + movespeedBall) * new Vector2(movementScript.looking.x, movementScript.looking.y * -1), ForceMode2D.Impulse);
-        Debug.Log("Fire!");
         yield return new WaitForSeconds(2);
         fireroutine = null;
     }
