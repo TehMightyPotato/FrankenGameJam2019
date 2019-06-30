@@ -21,6 +21,7 @@ public class SpaceGhostSpawner : MonoBehaviour
     private GameObject player2;
     [SerializeField]
     private CameraController camController;
+    public MrTorgue mrtorgue;
 
 
     private void Start()
@@ -53,8 +54,19 @@ public class SpaceGhostSpawner : MonoBehaviour
 
     public IEnumerator SpawnSpaceGhost()
     {
+        while (mrtorgue.ownAudioSource.isPlaying)
+        {
+            yield return new WaitForEndOfFrame();
+        }
         camController.ScreenShake(0.25f, 100);
         spaceGhost.SetActive(true);
+        mrtorgue.tutorialRunning = true;
+        mrtorgue.PlaySpaceGhostIntro();
+        while (mrtorgue.ownAudioSource.isPlaying)
+        {
+            yield return new WaitForEndOfFrame();
+        }
+       
         yield return null;
     }
 }

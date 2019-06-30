@@ -20,9 +20,11 @@ public class BallManagerScript : MonoBehaviour
             spawnerList.Add(spawner.GetComponent<BallSpawnScript>());
         }
         timeCounter = 0;
+    }
+    public void StartMainRoutine()
+    {
         StartCoroutine(MainRoutine());
     }
-
     public void BallSpawn()
     {
         var rng = Random.Range(0, spawnerList.Count);
@@ -39,9 +41,7 @@ public class BallManagerScript : MonoBehaviour
     }
 
     public IEnumerator MainRoutine()
-    { 
-        yield return new WaitForSeconds(5);
-        
+    {   
         while (true)
         {
             if (!(ballList.Count >= maxBalls + deadBalls / 3))

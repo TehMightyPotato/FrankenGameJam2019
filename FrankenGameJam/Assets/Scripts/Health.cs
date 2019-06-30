@@ -9,6 +9,7 @@ public class Health : MonoBehaviour
     public int maxhealth;
     public CameraController camController;
     public AudioSource getHitSource;
+    public MrTorgue mrtorgue;
 
     // Start is called before the first frame update
     void Start()
@@ -20,6 +21,7 @@ public class Health : MonoBehaviour
     // Update is called once per frame
     public void Loosehealth()
     {
+        mrtorgue.PlayRandomHitClip();
         getHitSource.Play();
         camController.ScreenShake(0.25f, 100);
         health = health - 1;
