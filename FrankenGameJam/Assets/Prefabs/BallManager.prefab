@@ -46,6 +46,6 @@ MonoBehaviour:
   ballList: []
   spawnerList: []
   timeCounter: 0
-  maxTimeCounter: 2
+  maxTimeCounter: 5
   maxBalls: 8
   deadBalls: 0
