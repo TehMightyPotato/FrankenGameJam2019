@@ -7,6 +7,8 @@ public class Health : MonoBehaviour
     private Playertype playertype;
     public int health;
     public int maxhealth;
+    public CameraController camController;
+    public AudioSource getHitSource;
 
     // Start is called before the first frame update
     void Start()
@@ -18,6 +20,8 @@ public class Health : MonoBehaviour
     // Update is called once per frame
     public void Loosehealth()
     {
+        getHitSource.Play();
+        camController.ScreenShake(0.25f, 100);
         health = health - 1;
         SpaceJimmy();
     }

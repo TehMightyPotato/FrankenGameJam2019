@@ -19,6 +19,8 @@ public class SpaceGhostSpawner : MonoBehaviour
     private GameObject player1;
     [SerializeField]
     private GameObject player2;
+    [SerializeField]
+    private CameraController camController;
 
 
     private void Start()
@@ -51,6 +53,7 @@ public class SpaceGhostSpawner : MonoBehaviour
 
     public IEnumerator SpawnSpaceGhost()
     {
+        camController.ScreenShake(0.25f, 100);
         spaceGhost.SetActive(true);
         yield return null;
     }

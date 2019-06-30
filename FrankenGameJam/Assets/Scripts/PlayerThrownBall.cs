@@ -32,12 +32,14 @@ public class PlayerThrownBall : GenericBall
 
     public new IEnumerator LooseHealthRoutine(GameObject player)
     {
+        ownRenderer.enabled = false;
         player.GetComponent<Health>().Loosehealth();
         yield return null;
         Destroy(gameObject);
     }
     public IEnumerator LooseSpaceHealthRoutine(GameObject spaceghost)
     {
+        ownRenderer.enabled = false;
         var ghostscript = spaceghost.GetComponent<SPACEGHOST>();
         ghostscript.LooseSpacehealth();
         yield return null;
