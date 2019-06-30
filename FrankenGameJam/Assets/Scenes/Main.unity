@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.49641287, b: 0.5748173, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -470,6 +470,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8833597624689171501, guid: 6fc13126598156f4cbb7824e8e849ee8,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 3765029ccdbe64cec8be3b2e479dde0c,
+        type: 3}
     - target: {fileID: 8833597624689171499, guid: 6fc13126598156f4cbb7824e8e849ee8,
         type: 3}
       propertyPath: camController
@@ -1352,7 +1358,7 @@ PrefabInstance:
     - target: {fileID: 2265755361654248173, guid: 4ac32519bd7f74f03a33f64b4499ac6e,
         type: 3}
       propertyPath: spacemaxhealth
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 2265755361654248175, guid: 4ac32519bd7f74f03a33f64b4499ac6e,
         type: 3}
