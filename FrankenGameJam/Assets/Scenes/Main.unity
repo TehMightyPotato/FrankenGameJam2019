@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.49641287, b: 0.5748173, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -413,7 +413,7 @@ PrefabInstance:
     - target: {fileID: 8833597624689171496, guid: 6fc13126598156f4cbb7824e8e849ee8,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8833597624689171503, guid: 6fc13126598156f4cbb7824e8e849ee8,
         type: 3}
@@ -486,6 +486,11 @@ PrefabInstance:
       propertyPath: mrtorgue
       value: 
       objectReference: {fileID: 40430571}
+    - target: {fileID: 8833597624689171499, guid: 6fc13126598156f4cbb7824e8e849ee8,
+        type: 3}
+      propertyPath: maxhealth
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fc13126598156f4cbb7824e8e849ee8, type: 3}
 --- !u!1 &902200416
@@ -1602,6 +1607,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5551278793658941479, guid: 43cb379a8ca724c11b5ef9bed12defcf,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 366f80823d5874eb59589847cfa8e253,
+        type: 3}
     - target: {fileID: 5551278793658941473, guid: 43cb379a8ca724c11b5ef9bed12defcf,
         type: 3}
       propertyPath: camController
@@ -1612,6 +1623,11 @@ PrefabInstance:
       propertyPath: mrtorgue
       value: 
       objectReference: {fileID: 40430571}
+    - target: {fileID: 5551278793658941473, guid: 43cb379a8ca724c11b5ef9bed12defcf,
+        type: 3}
+      propertyPath: maxhealth
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43cb379a8ca724c11b5ef9bed12defcf, type: 3}
 --- !u!1001 &8628476056619432687
