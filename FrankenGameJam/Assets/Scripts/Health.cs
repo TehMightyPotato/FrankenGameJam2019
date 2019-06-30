@@ -25,11 +25,8 @@ public class Health : MonoBehaviour
     {
         if (health > 0)
         {
-            //Debug.Log("yeah you're alive!");
             return;
         }
-
-        //Debug.Log("OH MY GOD, SHE FUCKING DEAD!");
 
         if (playertype == Playertype.PLAYER1)
         {

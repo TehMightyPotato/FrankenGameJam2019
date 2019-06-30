@@ -18,30 +18,25 @@ public class INTHEFAAACE : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(movementScript.playertype == Playertype.PLAYER1)
+        if (movementScript.playertype == Playertype.PLAYER1 && Input.GetButtonDown("Fire1") && movementScript.looking.magnitude != 0)
         {
-            if (Input.GetButtonDown("Fire1") && movementScript.looking.magnitude != 0)
+            if (fireroutine == null)
             {
-                if (fireroutine == null)
-                {
-                    fireroutine = StartCoroutine(Fire());
-                }
+                fireroutine = StartCoroutine(Fire());
             }
         }
-        if (movementScript.playertype == Playertype.PLAYER2)
+        if (movementScript.playertype == Playertype.PLAYER2 && Input.GetButtonDown("Fire2") && movementScript.looking.magnitude != 0)
         {
-            if (Input.GetButtonDown("Fire2") && movementScript.looking.magnitude != 0)
+            if (fireroutine == null)
             {
-                if (fireroutine == null)
-                {
-                    fireroutine = StartCoroutine(Fire());
-                }
+                fireroutine = StartCoroutine(Fire());
             }
         }
     }
 
     public IEnumerator Fire()
     {
+        Debug.Log(gameObject.name);
         var ball = Instantiate(ballPrefab, transform.position, Quaternion.identity);
         var rbBall = ball.GetComponent<Rigidbody2D>();
         var ballscript = ball.GetComponent<PlayerThrownBall>();

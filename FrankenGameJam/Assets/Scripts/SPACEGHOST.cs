@@ -60,11 +60,9 @@ public class SPACEGHOST : MonoBehaviour
     {
         if (spacehealth > 0)
         {
-            Debug.Log("HE LIIIIVES!");
             return;
         }
 
-        Debug.Log("BOOOOOM!");
         if(gameObject.tag == "Spaceghost")
         {
             SceneManager.LoadScene("BOTHWIN");
