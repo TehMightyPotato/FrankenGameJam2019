@@ -7,11 +7,13 @@ public class GenericBall : MonoBehaviour
     public BallManagerScript managerScript;
     public Coroutine looseHealthRoutine;
     public float timer;
+    public SpriteRenderer ownRenderer;
 
     public IEnumerator LooseHealthRoutine(GameObject player)
     {
         Movement movescript = player.GetComponent<Movement>();
         movescript.playerhalo.enabled = true;
+        ownRenderer.enabled = false;
         if (movescript.playertype == Playertype.PLAYER1)
         {
             while (timer > 0)
