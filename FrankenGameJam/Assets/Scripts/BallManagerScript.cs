@@ -15,23 +15,12 @@ public class BallManagerScript : MonoBehaviour
     void Start()
     {
         var spawners = GameObject.FindGameObjectsWithTag("BallSpawner");
-        foreach(var spawner in spawners)
+        foreach (var spawner in spawners)
         {
             spawnerList.Add(spawner.GetComponent<BallSpawnScript>());
         }
         timeCounter = 0;
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        if (ballList.Count >= maxBalls + deadBalls/3) return;
-        timeCounter += Time.deltaTime;
-        if (timeCounter >= maxTimeCounter)
-        {
-            BallSpawn();
-            timeCounter = 0;
-        }
+        StartCoroutine(MainRoutine());
     }
 
     public void BallSpawn()
@@ -48,6 +37,24 @@ public class BallManagerScript : MonoBehaviour
             deadBalls++;
         }
     }
-       
-    //ballCounter.add /ballCounter.remove
+
+    public IEnumerator MainRoutine()
+    { 
+        yield return new WaitForSeconds(5);
+        
+        while (true)
+        {
+            if (!(ballList.Count >= maxBalls + deadBalls / 3))
+            {
+                timeCounter += Time.deltaTime;
+                if (timeCounter >= maxTimeCounter)
+                {
+                    BallSpawn();
+                    timeCounter = 0;
+                }
+            }
+            yield return new WaitForEndOfFrame();
+        }
+        
+    }
 }
