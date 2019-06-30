@@ -54,11 +54,4 @@ public class SpaceGhostSpawner : MonoBehaviour
         spaceGhost.SetActive(true);
         yield return null;
     }
-
-    private void OnDisable()
-    {
-        player1.GetComponent<Movement>().caughtBall -= OnPlayer1Caught;
-        player2.GetComponent<Movement>().caughtBall -= OnPlayer2Caught;
-
-    }
 }
