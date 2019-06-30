@@ -19,17 +19,17 @@ public class Health : MonoBehaviour
     public void Loosehealth()
     {
         health = health - 1;
-        Jimmy();
+        SpaceJimmy();
     }
-    public void Jimmy()
+    public void SpaceJimmy()
     {
         if (health > 0)
         {
-            Debug.Log("yeah you're alive!");
+            //Debug.Log("yeah you're alive!");
             return;
         }
-        
-        Debug.Log("OH MY GOD, SHE FUCKING DEAD!");
+
+        //Debug.Log("OH MY GOD, SHE FUCKING DEAD!");
 
         if (playertype == Playertype.PLAYER1)
         {
