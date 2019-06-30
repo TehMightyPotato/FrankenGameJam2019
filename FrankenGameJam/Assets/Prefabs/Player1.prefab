@@ -25,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4102320856538530642}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.3, y: 0.3, z: 0}
+  m_LocalPosition: {x: -0.2, y: 0.1, z: 0}
   m_LocalScale: {x: 8, y: 8, z: 8}
   m_Children: []
   m_Father: {fileID: 5551278793658941477}
@@ -70,7 +70,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -1
-  m_Sprite: {fileID: 21300000, guid: 22d313fb612854e7088ee05681e1fb6f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 96fbae4fb004e4fb1ae3001aa65133f5, type: 3}
   m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -247,13 +247,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 1.8
   playerRB: {fileID: 5551278793658941476}
-  playertype: 1
+  playertype: 0
   playermov: {x: 0, y: 0}
   playerhalo: {fileID: 5037059903624367606}
   looking: {x: 0, y: 0}
   rotation: 0
-  catchCooldown: 5
+  catchCooldown: 2
   canCatch: 1
+  defaultHaloColor: {r: 1, g: 0, b: 0, a: 1}
+  canNotCatchHaloColor: {r: 0, g: 0, b: 1, a: 1}
 --- !u!114 &1134931752
 MonoBehaviour:
   m_ObjectHideFlags: 0
