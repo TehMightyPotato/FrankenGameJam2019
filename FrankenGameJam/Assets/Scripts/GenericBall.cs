@@ -17,8 +17,9 @@ public class GenericBall : MonoBehaviour
             while (timer > 0)
             {
 
-                if (Input.GetButtonDown("CatchP1"))
+                if (Input.GetButtonDown("CatchP1") && movescript.canCatch)
                 {
+                    movescript.StartCatchCooldown();
                     break;
                 }
                 timer -= Time.deltaTime;
@@ -30,8 +31,9 @@ public class GenericBall : MonoBehaviour
         {
             while (timer > 0)
             {
-                if (Input.GetButtonDown("CatchP2"))
+                if (Input.GetButtonDown("CatchP2") && movescript.canCatch)
                 {
+                    movescript.StartCatchCooldown();
                     break;
                 }
                 timer -= Time.deltaTime;
@@ -41,10 +43,10 @@ public class GenericBall : MonoBehaviour
 
         if (timer <= 0)
         {
+            movescript.playerhalo.enabled = false;
             player.GetComponent<Health>().Loosehealth();
             yield return null;
         }
-        movescript.playerhalo.enabled = false;
         Destroy(gameObject);
     }
 }

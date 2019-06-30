@@ -48,6 +48,9 @@ public class SizingBallScript : GenericBall
                 looseHealthRoutine = StartCoroutine(LooseHealthRoutine(col.gameObject));
             }
         }
-        managerScript.BallRemove(gameObject);
+        if(managerScript != null)
+        {
+            managerScript.BallRemove(gameObject);
+        }
     }
 }

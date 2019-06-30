@@ -43,3 +43,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fda9a1feb9b7ef4e9bbebc0c4392629, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ballPrefab: {fileID: 4642866412055364829, guid: 8451c7a1607aada4fbddc53342622cd5,
+    type: 3}
+  movespeedBall: 100
+  shootingDirection: 1

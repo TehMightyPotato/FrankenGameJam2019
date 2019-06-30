@@ -20,6 +20,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Credits.unity
     guid: ed1a8cc79dbceae4eb9246079205124a
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/BOTHWIN.unity
+    guid: 572f30e0d17784681a6bdbd61316fef6
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: be7ce30db621de046b7d384b720c4d12,
       type: 2}
