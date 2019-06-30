@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 public enum Playertype
@@ -20,6 +21,7 @@ public class Movement : MonoBehaviour
     public bool canCatch;
     public Color defaultHaloColor;
     public Color canNotCatchHaloColor;
+    public EventHandler caughtBall;
    
     // Update is called once per frame
     void Update()
@@ -43,6 +45,7 @@ public class Movement : MonoBehaviour
 
     public void StartCatchCooldown()
     {
+        caughtBall?.Invoke(this,EventArgs.Empty);
         if(catchCooldownRoutine == null)
         {
             canCatch = false;
