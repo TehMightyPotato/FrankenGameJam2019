@@ -782,7 +782,7 @@ RectTransform:
   m_GameObject: {fileID: 2104848316}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
   m_Children: []
   m_Father: {fileID: 1845002490}
   m_RootOrder: 2
@@ -825,7 +825,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Press Space To Continue
+  m_Text: Press Any Button To Continue
 --- !u!222 &2104848319
 CanvasRenderer:
   m_ObjectHideFlags: 0
