@@ -136,4 +136,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   managerScript: {fileID: 0}
   timer: 0
+  ownRenderer: {fileID: 605613866317702372}
   origin: {fileID: 0}

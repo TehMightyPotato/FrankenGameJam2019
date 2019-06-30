@@ -18,6 +18,5 @@ public class BallScript : GenericBall
             }
         }
         managerScript.BallRemove(gameObject);
-
     }
 }

@@ -115,6 +115,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   managerScript: {fileID: 0}
   timer: 0.2
+  ownRenderer: {fileID: 605613866317702372}
 --- !u!50 &5972822200760640081
 Rigidbody2D:
   serializedVersion: 4

@@ -410,6 +410,7 @@ MonoBehaviour:
   spaceGhost: {fileID: 1404925156}
   player1: {fileID: 344903194}
   player2: {fileID: 1762805219}
+  camController: {fileID: 0}
 --- !u!4 &725406408
 Transform:
   m_ObjectHideFlags: 0
@@ -491,6 +492,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8833597624689171499, guid: 6fc13126598156f4cbb7824e8e849ee8,
+        type: 3}
+      propertyPath: camController
+      value: 
+      objectReference: {fileID: 1734628368}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fc13126598156f4cbb7824e8e849ee8, type: 3}
 --- !u!1 &902200416
@@ -990,6 +996,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1734628368 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2312120408605968340, guid: 96515e5a9252747458cc9a1229623acf,
+    type: 3}
+  m_PrefabInstance: {fileID: 627470393}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d16f5373a2e0c448aa67749eff828f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1737475603 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8766547147824727196, guid: 4ac32519bd7f74f03a33f64b4499ac6e,
@@ -1272,6 +1290,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameMusic
       objectReference: {fileID: 0}
+    - target: {fileID: 7373233094010435183, guid: dc7c325e807c3f34a94b64ae7ad9768b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5891188457188903835, guid: dc7c325e807c3f34a94b64ae7ad9768b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1401,6 +1424,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5551278793658941473, guid: 43cb379a8ca724c11b5ef9bed12defcf,
+        type: 3}
+      propertyPath: camController
+      value: 
+      objectReference: {fileID: 1734628368}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43cb379a8ca724c11b5ef9bed12defcf, type: 3}
 --- !u!1001 &8628476056619432687

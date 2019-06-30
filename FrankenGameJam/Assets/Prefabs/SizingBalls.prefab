@@ -137,6 +137,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   managerScript: {fileID: 0}
   timer: 0.2
+  ownRenderer: {fileID: 5268346921995068057}
   timeCounter: 0
   transformScale: {x: 1, y: 1}
   transformScaleX: 0.12

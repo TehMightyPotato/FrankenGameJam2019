@@ -5,10 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class SPACEGHOST : MonoBehaviour
 {
-	public GameObject waypointL;
-	public GameObject waypointR;
-	public Rigidbody2D rb;
-	public Coroutine timeroutine;
+    public GameObject waypointL;
+    public GameObject waypointR;
+    public Rigidbody2D rb;
+    public Coroutine timeroutine;
     public BallSpawnScript spawner;
     public float timer;
     public float currenttimer;
@@ -18,16 +18,16 @@ public class SPACEGHOST : MonoBehaviour
 
     // Start is called before the first frame update
     void Start()
-	{
-		rb = GetComponent<Rigidbody2D>();
-		StartCoroutine(Timeroutine());
+    {
+        rb = GetComponent<Rigidbody2D>();
+        StartCoroutine(Timeroutine());
         spacehealth = spacemaxhealth;
     }
 
-	// Update is called once per frame
-	void Update()
-	{
-        if(currenttimer >= timer)
+    // Update is called once per frame
+    void Update()
+    {
+        if (currenttimer >= timer)
         {
             spawner.SpawnBall();
             currenttimer = 0;
@@ -36,21 +36,21 @@ public class SPACEGHOST : MonoBehaviour
     }
 
     void FixedUpdate()
-	{
-		if (transform.position.x >= waypointR.transform.position.x)
-		{
-			rb.velocity = rb.velocity * -1;
-		}
-		if (transform.position.x <= waypointL.transform.position.x)
-		{
-			rb.velocity = rb.velocity * -1;
-		}
-	}
-		public IEnumerator Timeroutine()
-	{
-		yield return new WaitForSeconds(3);
-		rb.velocity = new Vector2(2,0);
-	}
+    {
+        if (transform.position.x >= waypointR.transform.position.x)
+        {
+            rb.velocity = rb.velocity * -1;
+        }
+        if (transform.position.x <= waypointL.transform.position.x)
+        {
+            rb.velocity = rb.velocity * -1;
+        }
+    }
+    public IEnumerator Timeroutine()
+    {
+        yield return new WaitForSeconds(3);
+        rb.velocity = new Vector2(2, 0);
+    }
     public void LooseSpacehealth()
     {
         spacehealth = spacehealth - 1;
@@ -62,11 +62,7 @@ public class SPACEGHOST : MonoBehaviour
         {
             return;
         }
-
-        if(gameObject.tag == "Spaceghost")
-        {
-            SceneManager.LoadScene("BOTHWIN");
-        }
+        SceneManager.LoadScene("BOTHWIN");
     }
- 
+
 }
