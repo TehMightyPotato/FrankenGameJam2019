@@ -520,6 +520,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player2
       objectReference: {fileID: 0}
+    - target: {fileID: 5551278793658941474, guid: 43cb379a8ca724c11b5ef9bed12defcf,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5551278793658941477, guid: 43cb379a8ca724c11b5ef9bed12defcf,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -973,6 +978,11 @@ PrefabInstance:
         type: 3}
       propertyPath: spacemaxhealth
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2265755361654248175, guid: 4ac32519bd7f74f03a33f64b4499ac6e,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ac32519bd7f74f03a33f64b4499ac6e, type: 3}
